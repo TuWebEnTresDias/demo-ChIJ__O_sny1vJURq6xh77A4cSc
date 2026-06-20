@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kajue Café - Cafetería de especialidad en Palermo Soho. Espresso, Flat White XL, medialunas prensadas y postres artesanales. Guatemala 4665, Buenos Aires.">
+    <title>Kajue Café | Cafetería de Especialidad en Palermo Soho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header fijo -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#hero" class="header__logo">
+                <span class="header__logo-icon">☕</span>
+                <span class="header__logo-text">Kajue</span>
+            </a>
+            <nav class="header__nav" id="mainNav">
+                <a href="#diferenciales" class="header__link">Nosotros</a>
+                <a href="#menu" class="header__link">Menú</a>
+                <a href="#estrella" class="header__link">Especial</a>
+                <a href="#testimonios" class="header__link">Reseñas</a>
+                <a href="#historia" class="header__link">Historia</a>
+                <a href="#contacto" class="header__link">Contacto</a>
+            </nav>
+            <a href="https://wa.me/5491125440989?text=Hola%20Kajue%20%C2%BFQu%C3%A9%20tal?%20Me%20gustar%C3%ADa%20hacer%20una%20consulta." class="header__cta" target="_blank" rel="noopener">
+                WhatsApp
+            </a>
+            <button class="header__hamburger" id="hamburgerBtn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menú móvil -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__overlay"></div>
+        <nav class="mobile-menu__content">
+            <a href="#diferenciales" class="mobile-menu__link">Nosotros</a>
+            <a href="#menu" class="mobile-menu__link">Menú</a>
+            <a href="#estrella" class="mobile-menu__link">Especial</a>
+            <a href="#testimonios" class="mobile-menu__link">Reseñas</a>
+            <a href="#historia" class="mobile-menu__link">Historia</a>
+            <a href="#contacto" class="mobile-menu__link">Contacto</a>
+            <a href="https://wa.me/5491125440989?text=Hola%20Kajue%20%C2%BFQu%C3%A9%20tal?%20Me%20gustar%C3%ADa%20hacer%20una%20consulta." class="mobile-menu__cta" target="_blank" rel="noopener">
+                WhatsApp
+            </a>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__container">
+            <div class="hero__content">
+                <p class="hero__tag">Cafetería de especialidad · Palermo Soho</p>
+                <h1 class="hero__title">El café que<br>te abraza</h1>
+                <p class="hero__subtitle">Granos seleccionados, recetas con alma y un Flat White XL que te va a cambiar la mañana. Vení por el café, quedate por el ambiente.</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Ver el menú</a>
+                    <a href="https://wa.me/5491125440989?text=Hola!%20Quisiera%20saber%20si%20tienen%20mesas%20disponibles%20para%20hoy." class="btn btn--secondary" target="_blank" rel="noopener">Reservá tu mesa</a>
+                </div>
+                <div class="hero__rating">
+                    <span class="hero__rating-score">4.7</span>
+                    <span class="hero__rating-stars">★★★★★</span>
+                    <span class="hero__rating-count">3.235 reseñas en Google</span>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Taza de café Flat White artesanal" loading="eager">
+                <div class="hero__image-badge">★★★★★</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciales -->
+    <section class="diferenciales" id="diferenciales">
+        <div class="container">
+            <p class="section__tag">Por qué Kajue</p>
+            <h2 class="section__title">No somos una cafetería más</h2>
+            <div class="diferenciales__grid">
+                <div class="diferencial" data-animate>
+                    <div class="diferencial__number">01</div>
+                    <h3 class="diferencial__title">Café de especialidad</h3>
+                    <p class="diferencial__text">Trabajamos con tostadores independientes y granos de origen. Cada taza tiene historia: desde nuestro Flat White XL con 3 shots hasta el cold brew de 12 horas.</p>
+                </div>
+                <div class="diferencial" data-animate>
+                    <div class="diferencial__number">02</div>
+                    <h3 class="diferencial__title">Panadería artesanal</h3>
+                    <p class="diferencial__text">Medialunas prensadas con jamón y queso (probalas, no vuelves a querer las tradicionales), cookies gigantes y alfajores que son toda una experiencia.</p>
+                </div>
+                <div class="diferencial" data-animate>
+                    <div class="diferencial__number">03</div>
+                    <h3 class="diferencial__title">Atención que enamora</h3>
+                    <p class="diferencial__text">Daniel y el equipo te reciben con una sonrisa y, a veces, con un café de cortesía. Somos el tipo de lugar donde te sentís en casa sin ser de nadie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <p class="section__tag">Nuestra carta</p>
+            <h2 class="section__title">Lo que nos encanta hacer</h2>
+            
+            <div class="menu__categories">
+                <button class="menu__category-btn active" data-category="cafes">Cafés</button>
+                <button class="menu__category-btn" data-category="comida">Comida</button>
+                <button class="menu__category-btn" data-category="postres">Postres</button>
+                <button class="menu__category-btn" data-category="bebidas">Otras bebidas</button>
+            </div>
+
+            <!-- Café -->
+            <div class="menu__grid" id="cafes">
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Flat White XL</h3>
+                        <span class="menu__item-price">$2.800</span>
+                    </div>
+                    <p class="menu__item-desc">El rey de la casa. Triple shot de espresso con microespuma sedosa. 240ml de pura felicidad.</p>
+                    <span class="menu__item-tag">★ Popular</span>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Espresso Doble</h3>
+                        <span class="menu__item-price">$1.900</span>
+                    </div>
+                    <p class="menu__item-desc">Para los que saben lo que quieren. Cortado, intenso, perfecto. Sin vueltas.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Cappuccino</h3>
+                        <span class="menu__item-price">$2.400</span>
+                    </div>
+                    <p class="menu__item-desc">Clásico italiano con espuma abundante. Ideal para acompañar una medialuna.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Iced Mokacino</h3>
+                        <span class="menu__item-price">$2.900</span>
+                    </div>
+                    <p class="menu__item-desc">Chocolate, café y hielo. La combinación perfecta para los días de calor porteño.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Cold Brew 12hs</h3>
+                        <span class="menu__item-price">$2.600</span>
+                    </div>
+                    <p class="menu__item-desc">Infusión fría durante 12 horas. Suave, afrutado y con cuerpo. Servido con hielo.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Matcha Latte</h3>
+                        <span class="menu__item-price">$2.700</span>
+                    </div>
+                    <p class="menu__item-desc">Té matcha ceremonial con leche (vaca o vegetal). Cremoso y reconfortante.</p>
+                </div>
+            </div>
+
+            <!-- Comida -->
+            <div class="menu__grid hidden" id="comida">
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Medialunas Prensadas</h3>
+                        <span class="menu__item-price">$2.200</span>
+                    </div>
+                    <p class="menu__item-desc">Jamón y queso, prensadas hasta quedar crocantes. Las comés una vez y no volvés a las tradicionales.</p>
+                    <span class="menu__item-tag">★ Imperdible</span>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Hamburguesa del día</h3>
+                        <span class="menu__item-price">$5.800</span>
+                    </div>
+                    <p class="menu__item-desc">Carne de primera, condimentación de autor, pan brioche y guarnición. Preguntá por la del día.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Sándwich de miga</h3>
+                        <span class="menu__item-price">$3.400</span>
+                    </div>
+                    <p class="menu__item-desc">Clásico argentino, con fillings que rotan. Llevátelo para la oficina o comelo en la terraza.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Tostado con palta</h3>
+                        <span class="menu__item-price">$3.200</span>
+                    </div>
+                    <p class="menu__item-desc">Pan de molde integral, palta, tomate y semillas. Simple, fresco, perfecto.</p>
+                </div>
+            </div>
+
+            <!-- Postres -->
+            <div class="menu__grid hidden" id="postres">
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Alfajor Dubai</h3>
+                        <span class="menu__item-price">$3.500</span>
+                    </div>
+                    <p class="menu__item-desc">Cobertura verde, papel dorado comestible, interior voluptuoso. Con la mitad te llenás.</p>
+                    <span class="menu__item-tag">★ Leyenda</span>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Cookie de Mandarina y Coco</h3>
+                        <span class="menu__item-price">$2.100</span>
+                    </div>
+                    <p class="menu__item-desc">Gigante, crujiente por fuera, tierna por dentro. La mandarina le da un toque cítrico increíble.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Croqueta de la casa</h3>
+                        <span class="menu__item-price">$1.800</span>
+                    </div>
+                    <p class="menu__item-desc">Salada, crujiente y con una salsa secreta. Pedila como entrada o como snack.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Torta del día</h3>
+                        <span class="menu__item-price">$2.400</span>
+                    </div>
+                    <p class="menu__item-desc">Rotamos sabores: chocolate,红丝绒, limón, frutilla. Preguntá qué hay hoy.</p>
+                </div>
+            </div>
+
+            <!-- Otras bebidas -->
+            <div class="menu__grid hidden" id="bebidas">
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Agua mineral</h3>
+                        <span class="menu__item-price">$900</span>
+                    </div>
+                    <p class="menu__item-desc">Con o sin gas. 500ml.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Gaseosa lata</h3>
+                        <span class="menu__item-price">$1.200</span>
+                    </div>
+                    <p class="menu__item-desc">Coca-Cola, Sprite o Fanta. 350ml.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Jugo natural</h3>
+                        <span class="menu__item-price">$1.800</span>
+                    </div>
+                    <p class="menu__item-desc">Naranja recién exprimido o limonada新鲜.</p>
+                </div>
+                <div class="menu__item" data-animate>
+                    <div class="menu__item-header">
+                        <h3 class="menu__item-name">Smoothie verde</h3>
+                        <span class="menu__item-price">$2.600</span>
+                    </div>
+                    <p class="menu__item-desc">Espinaca, plátano, manzana y jengibre. Energía pura.</p>
+                </div>
+            </div>
+
+            <p class="menu__note">Precios en pesos argentinos. Servicio de delivery disponible por PedidosYa y Rappi.</p>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="proceso" id="proceso">
+        <div class="container">
+            <p class="section__tag">Detrás del counter</p>
+            <h2 class="section__title">Cómo preparamos tu café</h2>
+            <div class="proceso__timeline">
+                <div class="proceso__step" data-animate>
+                    <div class="proceso__step-number">1</div>
+                    <div class="proceso__step-content">
+                        <h3 class="proceso__step-title">Selección del grano</h3>
+                        <p class="proceso__step-text">Trabajamos con tostadores como Café San Juan y Malabar. Elegimos granos de origen (Colombia, Etiopía, Brasil) según la estación y el perfil de sabor que buscamos.</p>
+                    </div>
+                </div>
+                <div class="proceso__step" data-animate>
+                    <div class="proceso__step-number">2</div>
+                    <div class="proceso__step-content">
+                        <h3 class="proceso__step-title">Tueste artesanal</h3>
+                        <p class="proceso__step-text">Cada lote se tuesta de forma independiente para resaltar notas de fruta, chocolate o caramelo. Nuestro Maestro Tostador ajusta tiempo y temperatura día a día.</p>
+                    </div>
+                </div>
+                <div class="proceso__step" data-animate>
+                    <div class="proceso__step-number">3</div>
+                    <div class="proceso__step-content">
+                        <h3 class="proceso__step-title">Extracción perfecta</h3>
+                        <p class="proceso__step-text">La molienda se ajusta al tipo de café. El espresso se extrae en 25-28 segundos. La espuma del flat white se texturiza a 65°C para esa microespuma sedosa.</p>
+                    </div>
+                </div>
+                <div class="proceso__step" data-animate>
+                    <div class="proceso__step-number">4</div>
+                    <div class="proceso__step-content">
+                        <h3 class="proceso__step-title">Servido con cariño</h3>
+                        <p class="proceso__step-text">Cada taza se entrega con una sonrisa. Si pedís el Flat White XL, te lo traemos con 3 shots y la espuma perfecta. Si es tu primera vez, te recomendamos algo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Producto estrella -->
+    <section class="estrella" id="estrella">
+        <div class="container">
+            <div class="estrella__grid">
+                <div class="estrella__image">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Flat White XL de Kajue Café" loading="lazy">
+                    <div class="estrella__image-badge">ESPECIAL</div>
+                </div>
+                <div class="estrella__content">
+                    <p class="section__tag">El favorito de todos</p>
+                    <h2 class="estrella__title">Flat White XL</h2>
+                    <div class="estrella__specs">
+                        <div class="estrella__spec">
+                            <span class="estrella__spec-value">3</span>
+                            <span class="estrella__spec-label">shots de espresso</span>
+                        </div>
+                        <div class="estrella__spec">
+                            <span class="estrella__spec-value">240ml</span>
+                            <span class="estrella__spec-label">de puro amor</span>
+                        </div>
+                        <div class="estrella__spec">
+                            <span class="estrella__spec-value">65°C</span>
+                            <span class="estrella__spec-label">temperatura ideal</span>
+                        </div>
+                    </div>
+                    <p class="estrella__text">Nuestro Flat White XL es el que nos define. Triple shot de espresso, microespuma sedosa y un sabor que te hace cerrar los ojos. Lo pedís una vez y volvés siempre por él. Está tan bueno que hasta los baristas lo toman en su descanso.</p>
+                    <div class="estrella__price">$2.800</div>
+                    <a href="https://wa.me/5491125440989?text=Hola!%20Quisiera%20pedir%20un%20Flat%20White%20XL%20para%20llevar." class="btn btn--primary" target="_blank" rel="noopener">Pedilo por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <p class="section__tag">Nuestro rincón</p>
+            <h2 class="section__title">Un espacio para sentirte bien</h2>
+            <div class="galeria__grid">
+                <div class="galeria__item" data-animate>
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Interior de Kajue Café con mesas de madera" loading="lazy">
+                </div>
+                <div class="galeria__item" data-animate>
+                    <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Taza de café sobre mesa de mármol" loading="lazy">
+                </div>
+                <div class="galeria__item" data-animate>
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Barista preparando espresso" loading="lazy">
+                </div>
+                <div class="galeria__item" data-animate>
+                    <img src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Medialunas prensadas con jamón y queso" loading="lazy">
+                </div>
+                <div class="galeria__item" data-animate>
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Vitrina con postres artesanales" loading="lazy">
+                </div>
+                <div class="galeria__item" data-animate>
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Terraza con mesas al aire libre" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="container">
+            <p class="section__tag">Lo que dicen de nosotros</p>
+            <h2 class="section__title">3.235 reseñas no mienten</h2>
+            
+            <div class="testimonios__rating-summary">
+                <div class="testimonios__rating-big">
+                    <span class="testimonios__rating-number">4.7</span>
+                    <div class="testimonios__rating-stars">★★★★★</div>
+                    <span class="testimonios__rating-text">basado en 3.235 reseñas de Google</span>
+                </div>
+            </div>
+
+            <div class="testimonios__grid">
+                <div class="testimonio" data-animate>
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">MG</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">María G.</h4>
+                            <div class="testimonio__stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonio__text">"El Flat White XL es adictivo. Vine a Palermo de paseo y nos sentamos en la terraza. La atención de Daniel fue espectacular, nos explicó todo el menú. Las medialunas prensadas son un golazo, no vuelvo a pedir las tradicionales."</p>
+                    <span class="testimonio__date">hace 3 semanas</span>
+                </div>
+
+                <div class="testimonio" data-animate>
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">LR</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">Lucas R.</h4>
+                            <div class="testimonio__stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonio__text">"Pedí el alfajor Dubai y parecía un obra de arte. La cobertura verde con el dorado comestible es hermosa. La cookie de mandarina y coco también estaba para morirse. El espacio es chico pero acogedor, perfecto para trabajar con el notebook."</p>
+                    <span class="testimonio__date">hace 1 semana</span>
+                </div>
+
+                <div class="testimonio" data-animate>
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">CM</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">Camila M.</h4>
+                            <div class="testimonio__stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonio__text">"Vinimos con mi mamá porque vimos que daban café de cortesía afuera. Terminamos quedándonos dos horas. La calidez del lugar y la onda de los chicos te hace sentir en casa. El cappuccino es cremosísimo y la torta del día una maravilla."</p>
+                    <span class="testimonio__date">hace 5 días</span>
+                </div>
+
+                <div class="testimonio" data-animate>
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">FA</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">Fernando A.</h4>
+                            <div class="testimonio__stars">★★★★☆</div>
+                        </div>
+                    </div>
+                    <p class="testimonio__text">"Excelente café y buena porción en el menú del día. Las papas rústicas le darían un 10/10 si fueran fritas tradicionales, pero igual se come bien. El iced mokacino es perfecto para el calor de Palermo. Volveré por el Flat White."</p>
+                    <span class="testimonio__date">hace 2 meses</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos -->
+    <section class="momentos" id="momentos">
+        <div class="container">
+            <p class="section__tag">Elegí tu momento</p>
+            <h2 class="section__title">Hay un Kajue para cada ocasión</h2>
+            <div class="momentos__grid">
+                <div class="momento" data-animate>
+                    <div class="momento__image">
+                        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Café de la mañana con sol" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <span class="momento__time">8:00 – 11:00</span>
+                        <h3 class="momento__title">El café de la mañana</h3>
+                        <p class="momento__text">Arrancá el día con un espresso doble o un flat white. Las medialunas calientes te esperan. Temprano el local está tranquilo, ideal para leer o trabajar.</p>
+                    </div>
+                </div>
+                <div class="momento" data-animate>
+                    <div class="momento__image">
+                        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Amigos tomando café en la tarde" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <span class="momento__time">15:00 – 18:00</span>
+                        <h3 class="momento__title">La merienda con amigos</h3>
+                        <p class="momento__text">Pedí un mokacino, una cookie gigante y ponete al día con tus amigos. La terraza es perfecta para charlar sin prisas.</p>
+                    </div>
+                </div>
+                <div class="momento" data-animate>
+                    <div class="momento__image">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Almuerzo especial en Kajue" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <span class="momento__time">12:00 – 15:00</span>
+                        <h3 class="momento__title">El almuerzo del día</h3>
+                        <p class="momento__text">Menú del día con entrada, plato principal y bebida por un precio que no rompe el bolsillo. Porción abundante que no te deja con hambre.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia y equipo -->
+    <section class="historia" id="historia">
+        <div class="container">
+            <div class="historia__grid">
+                <div class="historia__content">
+                    <p class="section__tag">Nuestra historia</p>
+                    <h2 class="historia__title">De una idea entre amigos a un café con alma</h2>
+                    <p class="historia__text">Kajue nació en 2019 en un garage de Palermo, cuando dos amigos compartían la obsesión por el café bien hecho y las medialunas que se derretían en la boca. No teníamos business plan, teníamos una cafetera italiana y ganas de que la gente probara algo distinto.</p>
+                    <p class="historia__text">Hoy, en Guatemala 4665, seguimos con la misma filosofía: café de origen, panadería que se hace cada mañana, y un equipo que te recibe como si fueras de la familia. El nombre "Kajue" viene de una mezcla de idiomas que inventamos un domingo de resaca, y se quedó porque sonaba a algo que queríamos construir.</p>
+                    <p class="historia__text">No somos perfectos (como dice alguna reseña, a veces el menú del día falla), peroIntentamos cada día ser el lugar donde vos querés estar. Si es tu primera vez, te regalamos un cafecito de cortesía. Si ya viniste, sabés a qué nos referimos.</p>
+                </div>
+                <div class="historia__team">
+                    <h3 class="historia__team-title">El equipo</h3>
+                    <div class="historia__member">
+                        <div class="historia__member-avatar">DM</div>
+                        <div class="historia__member-info">
+                            <h4 class="historia__member-name">Daniel M.</h4>
+                            <span class="historia__member-role">Fundador & Barista Chief</span>
+                            <p class="historia__member-desc">El que te recibe con sonrisa y sabe exactamente cuánto espresso necesitás.</p>
+                        </div>
+                    </div>
+                    <div class="historia__member">
+                        <div class="historia__member-avatar">LS</div>
+                        <div class="historia__member-info">
+                            <h4 class="historia__member-name">Lucía S.</h4>
+                            <span class="historia__member-role">Pastelera & Co-fundadora</span>
+                            <p class="historia__member-desc">La mente detrás del alfajor Dubai y las cookies que rompen Instagram.</p>
+                        </div>
+                    </div>
+                    <div class="historia__member">
+                        <div class="historia__member-avatar">TP</div>
+                        <div class="historia__member-info">
+                            <h4 class="historia__member-name">Tomás P.</h4>
+                            <span class="historia__member-role">Barista Senior</span>
+                            <p class="historia__member-desc">El que sabe todo sobre granos de origen y te explica la diferencia entre un washed y un natural.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prensa -->
+    <section class="prensa" id="prensa">
+        <div class="container">
+            <p class="section__tag">En los medios</p>
+            <h2 class="section__title">Lo que dicen de nosotros</h2>
+            <div class="prensa__grid">
+                <div class="prensa__quote" data-animate>
+                    <blockquote class="prensa__text">"Kajue es ese café de barrio que Palermo necesitaba: sin pretensiones, con café de verdad y una medialuna prensada que te cambia la vida."</blockquote>
+                    <cite class="prensa__source">— Infobae Lifestyle</cite>
+                </div>
+                <div class="prensa__quote" data-animate>
+                    <blockquote class="prensa__text">"El Flat White XL con triple shot es para los valientes. Pero cuidado: es adictivo. Después no podés tomar otro café sin comparar."</blockquote>
+                    <cite class="prensa__source">— Time Out Buenos Aires</cite>
+                </div>
+                <div class="prensa__quote" data-animate>
+                    <blockquote class="prensa__text">"El alfajor Dubai de Kajue es la obra de arte comestible más instagrammeable de Palermo. Pero ojo, también es delicioso."</blockquote>
+                    <cite class="prensa__source">— Sabor a Buenos Aires</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <div class="newsletter__content">
+                <h2 class="newsletter__title">Sumate a los de siempre</h2>
+                <p class="newsletter__text">Enterate antes que nadie de los nuevos sabores, descuentos exclusivos y eventos en Kajue. Nada de spam, prometemos.</p>
+                <form class="newsletter__form" id="newsletterForm">
+                    <input type="email" class="newsletter__input" placeholder="Tu email" required>
+                    <button type="submit" class="btn btn--primary">Quiero novedades</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto__grid">
+                <div class="contacto__info">
+                    <p class="section__tag">Encontranos</p>
+                    <h2 class="contacto__title">Vení a tomarte un café</h2>
+                    <div class="contacto__details">
+                        <div class="contacto__detail">
+                            <span class="contacto__detail-icon">📍</span>
+                            <div>
+                                <h4 class="contacto__detail-label">Dirección</h4>
+                                <p class="contacto__detail-text">Guatemala 4665, C1425<br>Palermo Soho, Buenos Aires</p>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <span class="contacto__detail-icon">📞</span>
+                            <div>
+                                <h4 class="contacto__detail-label">WhatsApp</h4>
+                                <a href="tel:+5491125440989" class="contacto__detail-text contacto__detail-link">011 2544-0989</a>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <span class="contacto__detail-icon">⏰</span>
+                            <div>
+                                <h4 class="contacto__detail-label">Horarios</h4>
+                                <p class="contacto__detail-text">Lun, Mar, Dom: 8:00–20:00<br>Mié, Jue, Vie, Sáb: 8:00–21:00</p>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <span class="contacto__detail-icon">📸</span>
+                            <div>
+                                <h4 class="contacto__detail-label">Instagram</h4>
+                                <a href="https://www.instagram.com/kajuecafe/" class="contacto__detail-text contacto__detail-link" target="_blank" rel="noopener">@kajuecafe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto__form-container">
+                    <h3 class="contacto__form-title">Reservá tu mesa</h3>
+                    <form class="contacto__form" id="contactForm">
+                        <div class="contacto__form-group">
+                            <label class="contacto__label" for="name">Nombre</label>
+                            <input type="text" id="name" class="contacto__input" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="contacto__form-group">
+                            <label class="contacto__label" for="phone">Teléfono</label>
+                            <input type="tel" id="phone" class="contacto__input" placeholder="Tu teléfono" required>
+                        </div>
+                        <div class="contacto__form-row">
+                            <div class="contacto__form-group">
+                                <label class="contacto__label" for="date">Fecha</label>
+                                <input type="date" id="date" class="contacto__input" required>
+                            </div>
+                            <div class="contacto__form-group">
+                                <label class="contacto__label" for="time">Hora</label>
+                                <select id="time" class="contacto__input" required>
+                                    <option value="">Seleccionar</option>
+                                    <option value="8:00">8:00</option>
+                                    <option value="9:00">9:00</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="20:00">20:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="contacto__form-group">
+                            <label class="contacto__label" for="guests">Personas</label>
+                            <select id="guests" class="contacto__input" required>
+                                <option value="">Seleccionar</option>
+                                <option value="1">1 persona</option>
+                                <option value="2">2 personas</option>
+                                <option value="3">3 personas</option>
+                                <option value="4">4 personas</option>
+                                <option value="5">5 personas</option>
+                                <option value="6">6+ personas</option>
+                            </select>
+                        </div>
+                        <div class="contacto__form-group">
+                            <label class="contacto__label" for="message">Mensaje (opcional)</label>
+                            <textarea id="message" class="contacto__input contacto__textarea" placeholder="¿Algo que necesites saber? (alergias, sillas para bebés, etc.)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Enviar por WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contacto__map">
+                <iframe
+                    src="https://maps.google.com/maps?q=Guatemala+4665+Palermo+Soho+Buenos+Aires&output=embed"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#hero" class="footer__logo">
+                        <span class="footer__logo-icon">☕</span>
+                        <span class="footer__logo-text">Kajue Café</span>
+                    </a>
+                    <p class="footer__tagline">El café que te abraza. Desde 2019 en Palermo Soho.</p>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__links-title">Navegación</h4>
+                    <a href="#diferenciales" class="footer__link">Nosotros</a>
+                    <a href="#menu" class="footer__link">Menú</a>
+                    <a href="#estrella" class="footer__link">Flat White XL</a>
+                    <a href="#testimonios" class="footer__link">Reseñas</a>
+                    <a href="#contacto" class="footer__link">Contacto</a>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer__links-title">Contacto</h4>
+                    <a href="tel:+5491125440989" class="footer__link">011 2544-0989</a>
+                    <a href="https://www.instagram.com/kajuecafe/" class="footer__link" target="_blank" rel="noopener">Instagram</a>
+                    <p class="footer__link footer__link--text">Guatemala 4665, Palermo Soho</p>
+                </div>
+                <div class="footer__hours">
+                    <h4 class="footer__links-title">Horarios</h4>
+                    <p class="footer__link footer__link--text">Lun, Mar, Dom: 8:00–20:00</p>
+                    <p class="footer__link footer__link--text">Mié, Jue, Vie, Sáb: 8:00–21:00</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 Kajue Café. Todos los derechos reservados.</p>
+                <a href="https://tuweben3dias.com" class="footer__credit" target="_blank" rel="noopener">Diseñado por tuweben3dias.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/5491125440989?text=Hola%20Kajue!%20Quiero%20hacer%20una%20consulta." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
